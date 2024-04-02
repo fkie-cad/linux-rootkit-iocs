@@ -10,12 +10,13 @@ The IOCs have been divided into three main categories:
 Paths of different files belonging to the rootkit. 
 These are either absolute or, in some cases, just filenames, which may be located in arbitrary locations on the system. 
 Some file paths include randomized values to make automated searches more challenging.
+Virtual files are only present on the live system and can NOT be found during dead forensics.
 
 #### Strings:
 Unique strings collected from files and memory dumps belonging to the rootkit.
 
 #### Network traffic:
-Rootkit-specific payloads as well as general information (e.g. ports, protocols) about the rootkits network traffic.\
+Rootkit-specific payloads as well as general information (e.g. ports, protocols) about the rootkits network traffic.
 Note, that many of the listed values are defaults, which may be modified by the attacker before deploying the rootkit.
 
 ---
