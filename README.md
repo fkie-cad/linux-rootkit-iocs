@@ -11,6 +11,7 @@ Paths of different files belonging to the rootkit.
 These are either absolute or, in some cases, just filenames, which may be located in arbitrary locations on the system. 
 Some file paths include randomized values to make automated searches more challenging.
 Virtual files are only present on the live system and can NOT be found during dead forensics.
+Moreover, please note, that most rootkits offer arbitrary file hiding. Files marked as 'hidden by default' only represent the rootkits default configuration.
 
 #### Strings:
 Unique strings collected from files and memory dumps belonging to the rootkit.
