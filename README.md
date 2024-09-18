@@ -22,4 +22,4 @@ Note, that many of the listed values are defaults, which may be modified by the 
 
 ---
 
-The analysis and acquisition of these IOCs have been conducted as part of a research project exploring the current state of Linux rootkits and evaluating different "real-world" approaches for their detection. For more information about how they may be utilized during forensic investigations, please see the accompanying research paper: www.awesome-paper.com
+The analysis and acquisition of these IOCs have been conducted as part of a research project exploring the current state of Linux rootkits and evaluating different "real-world" approaches for their detection. For more information about how they may be utilized during forensic investigations, please see the accompanying research paper: https://doi.org/10.1145/3688808
